@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAMURAI LINKS</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      gap: 20px;
+    }
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      box-shadow: 0 0 25px red;
+      object-fit: cover;
+    }
+
+    h1 {
+      color: red;
+      font-size: 2.5em;
+      text-shadow: 0 0 10px red, 0 0 20px red;
+    }
+
+    .link-btn {
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 15px 40px;
+      font-size: 1em;
+      cursor: pointer;
+      width: 250px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      font-weight: bold;
+    }
+
+    .link-btn:hover {
+      background-color: darkred;
+      box-shadow: 0 0 15px red;
+      transform: scale(1.05);
+    }
+
+    footer {
+      position: fixed;
+      bottom: 15px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.8em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>SAMURAI LINKS</h1>
+    <img src="sam%20logo.png" alt="Samurai Logo" class="logo">
+
+    <a href="#" class="link-btn">Our Website</a>
+    <a href="#" class="link-btn">Our Instagram</a>
+    <a href="#" class="link-btn">Our Snapchat</a>
+    <a href="#" class="link-btn">Ou
